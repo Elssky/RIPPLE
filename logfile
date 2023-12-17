@@ -1,0 +1,38 @@
+opt is d, oprarg is: DBLP
+opt is k, oprarg is: 15
+opt is a, oprarg is: VCCE
+G: 
+node_nums = 317080, edge_nums = 1049866
+G(15-core): 
+node_nums = 5810, edge_nums = 82458
+VCC_Num:280
+time for LOC_CUT(flow>=k): 2.201598s
+Call for LOC_CUT(flow>=k): 875
+time for LOC_CUT(flow<k): 2.233922s
+Call for LOC_CUT(flow<k): 251
+time for LOC_CUT(fake): 0.257997s
+Call for LOC_CUT(fake): 32705
+Total Time: 57.581934s
+	Command being timed: "nohup ./main -d DBLP -k 15 -a VCCE"
+	User time (seconds): 58.00
+	System time (seconds): 0.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 327172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 101508
+	Voluntary context switches: 290
+	Involuntary context switches: 290
+	Swaps: 0
+	File system inputs: 64
+	File system outputs: 8248
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
