@@ -11,7 +11,7 @@ git clone https://github.com/Elssky/RIPPLE.git
 ```
 ## 2.Build
 ```
-make
+cd RIPPLE && make
 ```
 ## 3.Run 
 Usage:
